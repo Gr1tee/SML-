@@ -1,0 +1,14 @@
+姓名：关东
+学号：2017140286
+学院：信通院
+
+1）程序入口是main函数。
+2）DCT变换之前的过程用matlab完成（dataprocess_dct.m）
+   将DCT变换后的训练数据保存为resultofdct.mat，维度为(D,N,30)
+   D为图片个数，N为每张图片区域个数，30为取DCT变换后的低30维
+3）算法部分用python完成
+4）程序入口为main.py
+5）输出结果在result.mat中
+   mean:(30,64)
+   cov:(30,30,64)
+   weight:(30,64)
